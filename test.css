@@ -1,12 +1,20 @@
 body{
+    background-image: url('dark_wood.png'); 
+}
+div{
+    outline-style: outset;
+    outline-color: aqua;
+    overflow: scroll;
     background-color: #8E41D5;
-    background-image: url('dark_wood.png');
 }
 
 p{
-    color: rgb(255, 255, 255);
     font-weight: Arial; 
 
+}
+
+img{
+    opacity: 0.8;
 }
 
 h3{
@@ -17,7 +25,7 @@ h3{
 }
 
 li{
-
+    display: inline-block;
 }
 a{
     color: white; 
@@ -31,6 +39,7 @@ ul{
 }
 
 #Header{
+    text-shadow: 2px 2px green;
     text-align: center;
     width: 500px;
     margin-left: auto;
@@ -48,6 +57,7 @@ ul{
 }
 
 #LeftNav{
+    transform: rotate(20deg);
     padding-bottom: 8px;
     text-align: center;
     width: 400px;
